@@ -15,3 +15,5 @@ function selectedBtn(event){
 navBtns.forEach(btn => {
     btn.addEventListener("click", selectedBtn);
 });
+
+const toggleImgBtn = document.getElementById("toggleImg");

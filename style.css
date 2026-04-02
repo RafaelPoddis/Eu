@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #34063E;
+    background-color: #2d0336;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
@@ -24,7 +24,7 @@ nav {
     background-color: transparent;
     padding: 6px;
     border: none;
-    color: orangered;
+    color: #E96E5F;
     font-size: 18px;
     margin: 1rem 2rem;
     cursor: pointer;
@@ -48,12 +48,12 @@ nav {
 
 main {
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    flex-direction: column;
     /* height: 80vh; */
 }
 
-.main-info {
+.card-info {
     color: white;
     display: flex;
     width: 80%;
@@ -75,7 +75,24 @@ main {
     margin-top: 3rem;
 }
 
+.toggleImg {
+    background-color: blue;
+    border: 1px solid rgb(99, 143, 238);
+    color: rgb(99, 143, 238);
+    border-radius: 6px;
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
 .profile-img {
     /* width: 55%; */
     border-radius: 50%;
+}
+
+.hidden {
+    display: none;
 }
