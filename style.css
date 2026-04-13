@@ -1,18 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2d0336;
+    background-color: #0A0F1F;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
 }
 
 header {
-    background-image: #5d156d;
+    background-color: #0A0F1F;
     height: 3rem;
     width: 100%;
     padding: 1rem 0;
-    border-bottom: 1px solid #4d2e52;
+    border-bottom: 1px solid #A855F7;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
     background-color: transparent;
     padding: 6px;
     border: none;
-    color: #E96E5F;
+    color: #FF6A00;
     font-size: 18px;
     margin: 1rem 2rem;
     cursor: pointer;
@@ -33,18 +33,20 @@ nav {
 }
 
 .nav-btn:hover {
-    color: #e77d6f;
+    color: #FF6A00;
+    border-bottom: #FF6A00 1px solid;
     transform: scale(1.1);
 }
 
 .selected {
-    background-color: rgba(255, 119, 69, 0.2);
-    border-radius: 8px;
+    color: #FF6A00;
+    border-bottom: 1px solid #FF6A00;
 }
-
+/* 
 .selected:hover {
-    color: orangered;
+    background-color: rgba(124, 58, 237, 0.3);
 }
+*/
 
 main {
     display: flex;
@@ -61,7 +63,7 @@ main {
     margin-top: 2rem;
 
     padding: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #A855F7;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
@@ -76,9 +78,9 @@ main {
 }
 
 .toggleImg {
-    background-color: blue;
+    background: linear-gradient(135deg, #7C3AED, #A855F7);
+    color: white;
     border: 1px solid rgb(99, 143, 238);
-    color: rgb(99, 143, 238);
     border-radius: 6px;
     width: 6rem;
     height: 3rem;
