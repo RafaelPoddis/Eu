@@ -60,7 +60,7 @@ main {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
     padding: 1rem;
     border: 1px solid #A855F7;
@@ -77,7 +77,7 @@ main {
     margin-top: 3rem;
 }
 
-.toggleImg {
+/* .toggleImg {
     background: linear-gradient(135deg, #7C3AED, #A855F7);
     color: white;
     border: 1px solid rgb(99, 143, 238);
@@ -88,11 +88,71 @@ main {
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-}
+} */
 
 .profile-img {
     /* width: 55%; */
     border-radius: 50%;
+}
+
+a {
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.links-frame {
+    border: #A855F7 1px solid;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+
+    display: flex;
+    gap: 2rem;
+}
+
+#twitchBtn {
+    background: linear-gradient(135deg, #7C3AED, #A855F7);
+    color: white;
+    border: 1px solid rgb(99, 143, 238);
+    border-radius: 6px;
+    width: 7rem;
+    height: 3rem;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#githubBtn {
+    background: linear-gradient(135deg, #111827, #1F2937);
+    color: #E5E7EB;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    width: 7rem;
+    height: 3rem;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#instaBtn {
+    background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 9rem;
+    height: 3rem;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 .hidden {
