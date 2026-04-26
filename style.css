@@ -15,6 +15,7 @@ header {
     border-bottom: 1px solid #A855F7;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -187,6 +188,34 @@ a {
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
+}
+
+.singleplayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DD2A7B;
+}
+
+.gamesCardsFrame{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    border: #A855F7 1px solid;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 80%;
+    gap: 2rem;
+}
+
+.gameCard{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .hidden {
