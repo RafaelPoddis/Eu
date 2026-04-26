@@ -24,7 +24,7 @@ nav {
     background-color: transparent;
     padding: 6px;
     border: none;
-    color: #FF6A00;
+    color: #DD2A7B;
     font-size: 18px;
     margin: 1rem 2rem;
     cursor: pointer;
@@ -33,14 +33,14 @@ nav {
 }
 
 .nav-btn:hover {
-    color: #FF6A00;
-    border-bottom: #FF6A00 1px solid;
+    color: #DD2A7B;
+    border-bottom: #DD2A7B 1px solid;
     transform: scale(1.1);
 }
 
 .selected {
-    color: #FF6A00;
-    border-bottom: 1px solid #FF6A00;
+    color: #DD2A7B;
+    border-bottom: 1px solid #DD2A7B;
 }
 /* 
 .selected:hover {
@@ -149,6 +149,30 @@ a {
     border: none;
     border-radius: 6px;
     width: 9rem;
+    height: 3rem;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#youtubeBtn {
+    background: linear-gradient(135deg, #DC2626, #B91C1C);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#tiktokBtn {
+    background: #0A0F1F;
+    color: white;
+    border: 1px solid #007470;
+    border-radius: 6px;
+    width: 8rem;
     height: 3rem;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
